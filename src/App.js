@@ -1,7 +1,9 @@
+import { Accordion } from "./components";
+
 const App = () => {
   return (
     <div>
-      <h1>brr</h1>
+      <Accordion />
     </div>
   );
 };
