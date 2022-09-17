@@ -1,8 +1,11 @@
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import "./Carousel.css";
 import mariaImage from "../../assets/img/maria.jpg";
+import { useState } from "react";
 
 const Carousel = () => {
+  const [idx, setIdx] = useState(0);
+
   return (
     <div className="carousel">
       <img src={mariaImage} alt="Maria de Almeida" />
