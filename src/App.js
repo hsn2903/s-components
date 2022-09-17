@@ -1,9 +1,10 @@
-import { Accordion } from "./components";
+import { Accordion, Carousel } from "./components";
 
 const App = () => {
   return (
     <div>
-      <Accordion />
+      {/* <Accordion /> */}
+      <Carousel />
     </div>
   );
 };
