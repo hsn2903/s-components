@@ -1,0 +1,70 @@
+.section_layout {
+  color: #343a40;
+  font-size: 24px;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+}
+
+.section_layout nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-row: 1/-1;
+}
+
+.section_layout menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2 / -1;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
+}
+
+.section_layout menu button:last-child {
+  background-color: red;
+  margin-left: auto;
+}
+
+.section_layout menu button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #5f3dc4;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.section_layout section {
+  background-color: #e9ecef;
+  padding: 40px;
+
+  overflow: scroll;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section_layout .email {
+  background-color: #adb5bd;
+  height: 96px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_layout aside {
+  background-color: #e9ecef;
+}

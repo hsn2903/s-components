@@ -1,4 +1,11 @@
-import { Accordion, Carousel, Hero, Pagination, Table } from "./components";
+import {
+  Accordion,
+  Carousel,
+  Hero,
+  Layout,
+  Pagination,
+  Table,
+} from "./components";
 
 const App = () => {
   return (
@@ -7,7 +14,8 @@ const App = () => {
       {/* <Carousel /> */}
       {/* <Table /> */}
       {/* <Pagination /> */}
-      <Hero />
+      {/* <Hero /> */}
+      <Layout />
     </div>
   );
 };
